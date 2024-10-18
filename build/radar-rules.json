@@ -13873,6 +13873,27 @@
       }
     ]
   },
+  "i-cable.com": {
+    "_name": "有線新聞",
+    "www": [
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/i-cable/news"
+      },
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/category/:category"
+        ],
+        "target": "/i-cable/news/:category"
+      }
+    ]
+  },
   "icac.org.hk": {
     "_name": "Hong Kong Independent Commission Against Corruption 香港廉政公署",
     ".": [
@@ -24035,6 +24056,91 @@
       }
     ]
   },
+  "skebetter.com": {
+    "_name": "Skebetter",
+    ".": [
+      {
+        "title": "Illust - Hot",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/illust"
+        ],
+        "target": "/skebetter/illust/hot"
+      },
+      {
+        "title": "Illust - Week",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/illust"
+        ],
+        "target": "/skebetter/illust/week"
+      },
+      {
+        "title": "Illust - Month",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/illust"
+        ],
+        "target": "/skebetter/illust/month"
+      },
+      {
+        "title": "Illust - Latest",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/illust"
+        ],
+        "target": "/skebetter/illust/latest"
+      },
+      {
+        "title": "Skebetter - Hot",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/skebetter/hot"
+      },
+      {
+        "title": "Skebetter - Week",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/skebetter/week"
+      },
+      {
+        "title": "Skebetter - Month",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/skebetter/month"
+      },
+      {
+        "title": "Skebetter - Latest",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/skebetter/latest"
+      },
+      {
+        "title": "Manga - Latest",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/series"
+        ],
+        "target": "/skebetter/manga/1"
+      },
+      {
+        "title": "Manga - Hot",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/series"
+        ],
+        "target": "/skebetter/manga/2"
+      }
+    ]
+  },
   "sketis.net": {
     "_name": "Sketis | Website of Dr. Makarius Wenzel",
     "isabelle-dev": [
@@ -24990,6 +25096,27 @@
           "/"
         ],
         "target": "/storyfm/index"
+      }
+    ]
+  },
+  "straitstimes.com": {
+    "_name": "The Strait Times",
+    "www": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category"
+        ],
+        "target": "/straitstimes/:category"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/straitstimes/"
       }
     ]
   },
@@ -27524,6 +27651,24 @@
           "/"
         ],
         "target": "/weibo/user_bookmarks/:uid"
+      },
+      {
+        "title": "博主",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/u/:uid"
+        ],
+        "target": "/weibo/user/:uid"
+      }
+    ],
+    "www": [
+      {
+        "title": "博主",
+        "docs": "https://docs.rsshub.app/routes/social-media",
+        "source": [
+          "/u/:uid"
+        ],
+        "target": "/weibo/user/:uid"
       }
     ],
     "s": [
@@ -27545,9 +27690,7 @@
         "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/u/:uid",
-          "/profile/:uid",
-          "/u/:uid",
-          "/u/:uid"
+          "/profile/:uid"
         ],
         "target": "/weibo/user/:uid"
       },

@@ -774,7 +774,8 @@
   "/bilibili/user/video-all/:uid/:disableEmbed?": [],
   "/bilibili/user/video/:uid/:disableEmbed?": [
     "DIYgod",
-    "Konano"
+    "Konano",
+    "pseudoyu"
   ],
   "/bilibili/vsearch/:kw/:order?/:disableEmbed?/:tid?": [
     "pcrtool",
@@ -3283,6 +3284,9 @@
   "/hypergryph/arknights/news/:group?": [
     "Astrian"
   ],
+  "/i-cable/news/:category?": [
+    "quiniapiezoelectricity"
+  ],
   "/ianspriggs/:category?": [
     "nczitzk"
   ],
@@ -3770,6 +3774,9 @@
   ],
   "/kpmg/insights/:lang?": [
     "LogicJake"
+  ],
+  "/ktown4u/artistBrandlist/:grpNo/:grpNo2?": [
+    "JamesWDGu"
   ],
   "/kuaidi100/track/:number/:id/:phone?": [
     "NeverBehave"
@@ -5815,6 +5822,15 @@
   "/skeb/works/:username": [
     "SnowAgar25"
   ],
+  "/skebetter/illust/:type": [
+    "SnowAgar25"
+  ],
+  "/skebetter/:type": [
+    "SnowAgar25"
+  ],
+  "/skebetter/manga/:order": [
+    "SnowAgar25"
+  ],
   "/sketis/isabelle-dev/blog/:blog": [
     "Ritsuka314"
   ],
@@ -6028,6 +6044,9 @@
   ],
   "/storyfm/index": [
     "sanmmm"
+  ],
+  "/straitstimes/:category?/:section?": [
+    "quiniapiezoelectricity"
   ],
   "/stratechery/": [
     "chazeon"
@@ -6503,7 +6522,8 @@
   ],
   "/twitter/list/:id/:routeParams?": [
     "DIYgod",
-    "xyqfer"
+    "xyqfer",
+    "pseudoyu"
   ],
   "/twitter/media/:id/:routeParams?": [
     "DIYgod",
