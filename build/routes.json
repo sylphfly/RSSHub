@@ -15280,6 +15280,168 @@
     "name": "中国新闻网",
     "url": "chinanews.com.cn"
   },
+  "chinania": {
+    "routes": {
+      "/:category{.+}?": {
+        "path": "/:category{.+}?",
+        "name": "分类",
+        "url": "www.chinania.org.cn",
+        "maintainers": [
+          "nczitzk"
+        ],
+        "example": "/chinania/xiehuidongtai/xiehuitongzhi",
+        "parameters": {
+          "category": "分类，默认为 `xiehuidongtai/xiehuitongzhi`，即协会通知，可在对应分类页 URL 中找到"
+        },
+        "description": ":::tip\n  若订阅 [协会通知](https://www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/)，网址为 `https://www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/`。截取 `https://www.chinania.org.cn/html` 到末尾 `/` 的部分 `xiehuidongtai/xiehuitongzhi` 作为参数填入，此时路由为 [`/chinania/xiehuidongtai/xiehuitongzhi`](https://rsshub.app/chinania/xiehuidongtai/xiehuitongzhi)。\n  :::\n\n  <details>\n    <summary>更多分类</summary>\n\n  #### [协会动态](https://www.chinania.org.cn/html/xiehuidongtai/)\n\n  | [协会动态](https://www.chinania.org.cn/html/xiehuidongtai/xiehuidongtai/)              | [协会通知](https://www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/)              | [有色企业50强](https://www.chinania.org.cn/html/xiehuidongtai/youseqiye50qiang/)             |\n  | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |\n  | [xiehuidongtai/xiehuidongtai](https://rsshub.app/chinania/xiehuidongtai/xiehuidongtai) | [xiehuidongtai/xiehuitongzhi](https://rsshub.app/chinania/xiehuidongtai/xiehuitongzhi) | [xiehuidongtai/youseqiye50qiang](https://rsshub.app/chinania/xiehuidongtai/youseqiye50qiang) |\n\n  #### [党建工作](https://www.chinania.org.cn/html/djgz/)\n\n  | [协会党建](https://www.chinania.org.cn/html/djgz/xiehuidangjian/)      | [行业党建](https://www.chinania.org.cn/html/djgz/hangyedangjian/)      |\n  | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |\n  | [djgz/xiehuidangjian](https://rsshub.app/chinania/djgz/xiehuidangjian) | [djgz/hangyedangjian](https://rsshub.app/chinania/djgz/hangyedangjian) |\n\n  #### [行业新闻](https://www.chinania.org.cn/html/hangyexinwen/)\n\n  | [时政要闻](https://www.chinania.org.cn/html/hangyexinwen/shizhengyaowen/)              | [要闻](https://www.chinania.org.cn/html/hangyexinwen/yaowen/)          | [行业新闻](https://www.chinania.org.cn/html/hangyexinwen/guoneixinwen/)            | [资讯](https://www.chinania.org.cn/html/hangyexinwen/zixun/)         |\n  | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------- |\n  | [hangyexinwen/shizhengyaowen](https://rsshub.app/chinania/hangyexinwen/shizhengyaowen) | [hangyexinwen/yaowen](https://rsshub.app/chinania/hangyexinwen/yaowen) | [hangyexinwen/guoneixinwen](https://rsshub.app/chinania/hangyexinwen/guoneixinwen) | [hangyexinwen/zixun](https://rsshub.app/chinania/hangyexinwen/zixun) |\n\n  #### [人力资源](https://www.chinania.org.cn/html/renliziyuan/)\n\n  | [相关通知](https://www.chinania.org.cn/html/renliziyuan/xiangguantongzhi/)               | [人事招聘](https://www.chinania.org.cn/html/renliziyuan/renshizhaopin/)            |\n  | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |\n  | [renliziyuan/xiangguantongzhi](https://rsshub.app/chinania/renliziyuan/xiangguantongzhi) | [renliziyuan/renshizhaopin](https://rsshub.app/chinania/renliziyuan/renshizhaopin) |\n\n  #### [行业统计](https://www.chinania.org.cn/html/hangyetongji/jqzs/)\n\n  | [行业分析](https://www.chinania.org.cn/html/hangyetongji/tongji/)      | [数据统计](https://www.chinania.org.cn/html/hangyetongji/chanyeshuju/)           | [景气指数](https://www.chinania.org.cn/html/hangyetongji/jqzs/)    |\n  | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------ |\n  | [hangyetongji/tongji](https://rsshub.app/chinania/hangyetongji/tongji) | [hangyetongji/chanyeshuju](https://rsshub.app/chinania/hangyetongji/chanyeshuju) | [hangyetongji/jqzs](https://rsshub.app/chinania/hangyetongji/jqzs) |\n\n  #### [政策法规](https://www.chinania.org.cn/html/zcfg/zhengcefagui/)\n\n  | [政策法规](https://www.chinania.org.cn/html/zcfg/zhengcefagui/)    |\n  | ------------------------------------------------------------------ |\n  | [zcfg/zhengcefagui](https://rsshub.app/chinania/zcfg/zhengcefagui) |\n\n  #### [会议展览](https://www.chinania.org.cn/html/hyzl/huiyizhanlan/)\n\n  | [会展通知](https://www.chinania.org.cn/html/hyzl/huiyizhanlan/)    | [会展报道](https://www.chinania.org.cn/html/hyzl/huizhanbaodao/)     |\n  | ------------------------------------------------------------------ | -------------------------------------------------------------------- |\n  | [hyzl/huiyizhanlan](https://rsshub.app/chinania/hyzl/huiyizhanlan) | [hyzl/huizhanbaodao](https://rsshub.app/chinania/hyzl/huizhanbaodao) |\n\n  </details>\n    ",
+        "categories": [
+          "new-media"
+        ],
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportRadar": true,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "www.chinania.org.cn/html/:category"
+            ]
+          },
+          {
+            "title": "协会动态 - 协会动态",
+            "source": [
+              "www.chinania.org.cn/html/xiehuidongtai/xiehuidongtai/"
+            ],
+            "target": "/xiehuidongtai/xiehuidongtai"
+          },
+          {
+            "title": "协会动态 - 协会通知",
+            "source": [
+              "www.chinania.org.cn/html/xiehuidongtai/xiehuitongzhi/"
+            ],
+            "target": "/xiehuidongtai/xiehuitongzhi"
+          },
+          {
+            "title": "协会动态 - 有色企业50强",
+            "source": [
+              "www.chinania.org.cn/html/xiehuidongtai/youseqiye50qiang/"
+            ],
+            "target": "/xiehuidongtai/youseqiye50qiang"
+          },
+          {
+            "title": "党建工作 - 协会党建",
+            "source": [
+              "www.chinania.org.cn/html/djgz/xiehuidangjian/"
+            ],
+            "target": "/djgz/xiehuidangjian"
+          },
+          {
+            "title": "党建工作 - 行业党建",
+            "source": [
+              "www.chinania.org.cn/html/djgz/hangyedangjian/"
+            ],
+            "target": "/djgz/hangyedangjian"
+          },
+          {
+            "title": "会议展览 - 会展通知",
+            "source": [
+              "www.chinania.org.cn/html/hyzl/huiyizhanlan/"
+            ],
+            "target": "/hyzl/huiyizhanlan"
+          },
+          {
+            "title": "会议展览 - 会展报道",
+            "source": [
+              "www.chinania.org.cn/html/hyzl/huizhanbaodao/"
+            ],
+            "target": "/hyzl/huizhanbaodao"
+          },
+          {
+            "title": "行业新闻 - 时政要闻",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/shizhengyaowen/"
+            ],
+            "target": "/hangyexinwen/shizhengyaowen"
+          },
+          {
+            "title": "行业新闻 - 要闻",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/yaowen/"
+            ],
+            "target": "/hangyexinwen/yaowen"
+          },
+          {
+            "title": "行业新闻 - 行业新闻",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/guoneixinwen/"
+            ],
+            "target": "/hangyexinwen/guoneixinwen"
+          },
+          {
+            "title": "行业新闻 - 资讯",
+            "source": [
+              "www.chinania.org.cn/html/hangyexinwen/zixun/"
+            ],
+            "target": "/hangyexinwen/zixun"
+          },
+          {
+            "title": "行业统计 - 行业分析",
+            "source": [
+              "www.chinania.org.cn/html/hangyetongji/tongji/"
+            ],
+            "target": "/hangyetongji/tongji"
+          },
+          {
+            "title": "行业统计 - 数据统计",
+            "source": [
+              "www.chinania.org.cn/html/hangyetongji/chanyeshuju/"
+            ],
+            "target": "/hangyetongji/chanyeshuju"
+          },
+          {
+            "title": "行业统计 - 景气指数",
+            "source": [
+              "www.chinania.org.cn/html/hangyetongji/jqzs/"
+            ],
+            "target": "/hangyetongji/jqzs"
+          },
+          {
+            "title": "人力资源 - 相关通知",
+            "source": [
+              "www.chinania.org.cn/html/renliziyuan/xiangguantongzhi/"
+            ],
+            "target": "/renliziyuan/xiangguantongzhi"
+          },
+          {
+            "title": "人力资源 - 人事招聘",
+            "source": [
+              "www.chinania.org.cn/html/renliziyuan/renshizhaopin/"
+            ],
+            "target": "/renliziyuan/renshizhaopin"
+          },
+          {
+            "title": "政策法规 - 政策法规",
+            "source": [
+              "www.chinania.org.cn/html/zcfg/zhengcefagui/"
+            ],
+            "target": "/zcfg/zhengcefagui"
+          }
+        ],
+        "location": "index.ts"
+      }
+    },
+    "name": "中国有色金属工业网",
+    "url": "chinania.org.cn",
+    "categories": [
+      "new-media"
+    ],
+    "description": ""
+  },
   "chinathinktanks": {
     "routes": {
       "/:id": {
@@ -62413,6 +62575,41 @@
           "zhangxiang012"
         ],
         "location": "kg/user.ts"
+      },
+      "/pd/guild/:id/:sub?/:sort?": {
+        "path": [
+          "/pd/guild/:id/:sub?/:sort?"
+        ],
+        "categories": [
+          "bbs"
+        ],
+        "example": "/qq/pd/guild/qrp4pkq01d/650967831/created",
+        "parameters": {
+          "id": "频道号",
+          "sub": "子频道 ID，网页端 URL `subc` 参数的值，默认为 `hot`（全部）",
+          "sort": "排序方式，`hot`（热门），`created`（最新发布），`replied`（最新回复），默认为 `created`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "pd.qq.com/"
+            ]
+          }
+        ],
+        "name": "腾讯频道",
+        "maintainers": [
+          "mobyw"
+        ],
+        "url": "pd.qq.com/",
+        "location": "pd/guild.ts"
       }
     },
     "name": "腾讯网",
@@ -76852,7 +77049,7 @@
     },
     "name": "X (Twitter)",
     "url": "x.com",
-    "description": "Specify options (in the format of query string) in parameter `routeParams` to control some extra features for Tweets\n\n| Key                            | Description                                                                                                                          | Accepts                | Defaults to                               |\n| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------------- |\n| `readable`                     | Enable readable layout                                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `authorNameBold`               | Display author name in bold                                                                                                          | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorInTitle`            | Show author name in title                                                                                                            | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showAuthorInDesc`             | Show author name in description (RSS body)                                                                                           | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showQuotedAuthorAvatarInDesc` | Show avatar of quoted Tweet's author in description (RSS body) (Not recommended if your RSS reader extracts images from description) | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorAvatarInDesc`       | Show avatar of author in description (RSS body) (Not recommended if your RSS reader extracts images from description)                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showEmojiForRetweetAndReply`  | Use \"🔁\" instead of \"RT\", \"↩️\" & \"💬\" instead of \"Re\"                                                                                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showSymbolForRetweetAndReply` | Use \" RT \" instead of \"\", \" Re \" instead of \"\"                                                                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `showRetweetTextInTitle`       | Show quote comments in title (if `false`, only the retweeted tweet will be shown in the title)                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `addLinkForPics`               | Add clickable links for Tweet pictures                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `showTimestampInDescription`   | Show timestamp in description                                                                                                        | `0`/`1`/`true`/`false` | `false`                                   |\n| `showQuotedInTitle`            | Show quoted tweet in title                                                                                                           | `0`/`1`/`true`/`false` | `false`                                   |\n| `widthOfPics`                  | Width of Tweet pictures                                                                                                              | Unspecified/Integer    | Unspecified                               |\n| `heightOfPics`                 | Height of Tweet pictures                                                                                                             | Unspecified/Integer    | Unspecified                               |\n| `sizeOfAuthorAvatar`           | Size of author's avatar                                                                                                              | Integer                | `48`                                      |\n| `sizeOfQuotedAuthorAvatar`     | Size of quoted tweet's author's avatar                                                                                               | Integer                | `24`                                      |\n| `excludeReplies`               | Exclude replies, only available in `/twitter/user`                                                                                   | `0`/`1`/`true`/`false` | `false`                                   |\n| `includeRts`                   | Include retweets, only available in `/twitter/user`                                                                                  | `0`/`1`/`true`/`false` | `true`                                    |\n| `forceWebApi`                  | Force using Web API even if Developer API is configured, only available in `/twitter/user` and `/twitter/keyword`                    | `0`/`1`/`true`/`false` | `false`                                   |\n| `count`                        | `count` parameter passed to Twitter API, only available in `/twitter/user`                                                           | Unspecified/Integer    | Unspecified                               |\n\nSpecify different option values than default values to improve readability. The URL\n\n```\nhttps://rsshub.app/twitter/user/durov/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150\n```\n\ngenerates\n\n<img loading=\"lazy\" src=\"/img/readable-twitter.png\" alt=\"Readable Twitter RSS of Durov\" />\n\nCurrently supports two authentication methods:\n\n- Using `TWITTER_AUTH_TOKEN` (recommended): Configure a comma-separated list of `auth_token` cookies of logged-in Twitter Web. RSSHub will use this information to directly access Twitter's web API to obtain data.\n\n- Using `TWITTER_USERNAME` `TWITTER_PASSWORD` and `TWITTER_AUTHENTICATION_SECRET`: Configure a comma-separated list of Twitter username and password. RSSHub will use this information to log in to Twitter and obtain data using the mobile API. Please note that if you have not logged in with the current IP address before, it is easy to trigger Twitter's risk control mechanism.\n"
+    "description": "Specify options (in the format of query string) in parameter `routeParams` to control some extra features for Tweets\n\n| Key                            | Description                                                                                                                          | Accepts                | Defaults to                               |\n| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------- | ----------------------------------------- |\n| `readable`                     | Enable readable layout                                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `authorNameBold`               | Display author name in bold                                                                                                          | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorInTitle`            | Show author name in title                                                                                                            | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showAuthorInDesc`             | Show author name in description (RSS body)                                                                                           | `0`/`1`/`true`/`false` | `false` (`true` in `/twitter/followings`) |\n| `showQuotedAuthorAvatarInDesc` | Show avatar of quoted Tweet's author in description (RSS body) (Not recommended if your RSS reader extracts images from description) | `0`/`1`/`true`/`false` | `false`                                   |\n| `showAuthorAvatarInDesc`       | Show avatar of author in description (RSS body) (Not recommended if your RSS reader extracts images from description)                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showEmojiForRetweetAndReply`  | Use \"🔁\" instead of \"RT\", \"↩️\" & \"💬\" instead of \"Re\"                                                                                | `0`/`1`/`true`/`false` | `false`                                   |\n| `showSymbolForRetweetAndReply` | Use \" RT \" instead of \"\", \" Re \" instead of \"\"                                                                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `showRetweetTextInTitle`       | Show quote comments in title (if `false`, only the retweeted tweet will be shown in the title)                                       | `0`/`1`/`true`/`false` | `true`                                    |\n| `addLinkForPics`               | Add clickable links for Tweet pictures                                                                                               | `0`/`1`/`true`/`false` | `false`                                   |\n| `showTimestampInDescription`   | Show timestamp in description                                                                                                        | `0`/`1`/`true`/`false` | `false`                                   |\n| `showQuotedInTitle`            | Show quoted tweet in title                                                                                                           | `0`/`1`/`true`/`false` | `false`                                   |\n| `widthOfPics`                  | Width of Tweet pictures                                                                                                              | Unspecified/Integer    | Unspecified                               |\n| `heightOfPics`                 | Height of Tweet pictures                                                                                                             | Unspecified/Integer    | Unspecified                               |\n| `sizeOfAuthorAvatar`           | Size of author's avatar                                                                                                              | Integer                | `48`                                      |\n| `sizeOfQuotedAuthorAvatar`     | Size of quoted tweet's author's avatar                                                                                               | Integer                | `24`                                      |\n| `excludeReplies`               | Exclude replies, only available in `/twitter/user`                                                                                   | `0`/`1`/`true`/`false` | `false`                                   |\n| `includeRts`                   | Include retweets, only available in `/twitter/user`                                                                                  | `0`/`1`/`true`/`false` | `true`                                    |\n| `forceWebApi`                  | Force using Web API even if Developer API is configured, only available in `/twitter/user` and `/twitter/keyword`                    | `0`/`1`/`true`/`false` | `false`                                   |\n| `count`                        | `count` parameter passed to Twitter API, only available in `/twitter/user`                                                           | Unspecified/Integer    | Unspecified                               |\n| `onlyMedia`                    | Only get tweets with a media                                                                                                             | `0`/`1`/`true`/`false` | `false`                 |\n\nSpecify different option values than default values to improve readability. The URL\n\n```\nhttps://rsshub.app/twitter/user/durov/readable=1&authorNameBold=1&showAuthorInTitle=1&showAuthorInDesc=1&showQuotedAuthorAvatarInDesc=1&showAuthorAvatarInDesc=1&showEmojiForRetweetAndReply=1&showRetweetTextInTitle=0&addLinkForPics=1&showTimestampInDescription=1&showQuotedInTitle=1&heightOfPics=150\n```\n\ngenerates\n\n<img loading=\"lazy\" src=\"/img/readable-twitter.png\" alt=\"Readable Twitter RSS of Durov\" />\n\nCurrently supports two authentication methods:\n\n- Using `TWITTER_AUTH_TOKEN` (recommended): Configure a comma-separated list of `auth_token` cookies of logged-in Twitter Web. RSSHub will use this information to directly access Twitter's web API to obtain data.\n\n- Using `TWITTER_USERNAME` `TWITTER_PASSWORD` and `TWITTER_AUTHENTICATION_SECRET`: Configure a comma-separated list of Twitter username and password. RSSHub will use this information to log in to Twitter and obtain data using the mobile API. Please note that if you have not logged in with the current IP address before, it is easy to trigger Twitter's risk control mechanism.\n"
   },
   "twreporter": {
     "routes": {
